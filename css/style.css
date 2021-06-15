@@ -101,6 +101,7 @@ ul li a:hover{
 
     background-color: rgb(204, 80, 80);
     color: white;
+    transition: 0.5s ease-in-out;
 }
 
 .container-text > h2{
