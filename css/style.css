@@ -156,6 +156,7 @@ ul li a:hover{
     border: none;
     box-shadow: 2px 2px 2px black;
     justify-content: center;  
+    
      
     
 }
@@ -187,6 +188,7 @@ ul li a:hover{
     border: none;
     margin-bottom: 10px;
     box-shadow: 2px 2px 1px black;
+    outline: none;
     
    
     
