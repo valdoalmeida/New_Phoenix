@@ -92,8 +92,15 @@ ul li a:hover{
     background-color: rgba(161, 202, 214, 0.9);
     box-shadow: 4px 2px 2px black;
     letter-spacing: 2px;
-    border-radius: 10px;
-    
+    border-radius: 10px;   
+    color: black; 
+}
+
+
+.container-text:hover{
+
+    background-color: rgb(204, 80, 80);
+    color: white;
 }
 
 .container-text > h2{
@@ -113,6 +120,8 @@ ul li a:hover{
     text-align: center;
   
 }
+
+
 
 .text-main{
 
