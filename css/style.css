@@ -89,7 +89,7 @@ ul li a:hover{
     padding: 15px;
     border: 1px solid rgb(202, 199, 199); 
     margin: 2px;    
-    background-color: rgba(212, 212, 212, 0.9);
+    background-color: rgba(161, 202, 214, 0.9);
     box-shadow: 4px 2px 2px black;
     letter-spacing: 2px;
     border-radius: 10px;
@@ -141,7 +141,7 @@ ul li a:hover{
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
     font-size: 16px;
-    background-color: rgb(250, 152, 114);
+    background-color: rgba(161, 202, 214, 0.9);
     font-weight: 600;
     border: none;
     box-shadow: 2px 2px 2px black;
@@ -261,10 +261,20 @@ ul li a:hover{
 }
 
 
+.cadastrar{
 
+    background-color: rgb(204, 80, 80);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
 
+.cadastrar:hover{
 
-
+    background-color: rgb(158, 53, 53);
+    cursor: pointer;
+    box-shadow: 5px 5px 10px black;
+}
 
 
 
