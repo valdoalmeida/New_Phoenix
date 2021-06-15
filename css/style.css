@@ -32,7 +32,7 @@ header{
     width: 100%;
 }
 
-ul{
+.menu > ul{
 
     display: flex;
     padding-bottom: 15px;
@@ -40,7 +40,7 @@ ul{
 }
 
 
-ul li{
+.menu > ul li{
 
     margin-right: 15px;
     list-style: none;
@@ -49,7 +49,7 @@ ul li{
 }
 
 
-ul li a{
+.menu > ul li a{
 
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;    
@@ -61,7 +61,7 @@ ul li a{
     
 }
 
-ul li a:hover{
+.menu > ul li a:hover{
 
     color: white;
     background-color: rgb(204, 80, 80);
@@ -289,12 +289,60 @@ ul li a:hover{
     transition: 0.5s;
 }
 
+footer{
+
+    background-color: rgb(56, 61, 59);
+    width: 100%;
+    height: 250px;
+    border-top: 8px solid rgb(158, 53, 53);
+}
+
+.container-rodape{
+
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
+.address > p{
+
+    font-size: 15px;
+}
+iframe{
+
+    margin-top: 8px;
+    border: 2px solid white;
+}
 
 
+.links-uteis > ul li a{
 
+    text-decoration: none;  
+    color: white;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
 
+.links-uteis > ul li{
+
+    list-style: none;
+    margin-top: 15px;
+    border-bottom: 0.5px solid rgb(126, 125, 125);
+    
+    
+}
+
+.links-uteis > ul li a:hover{
+
+    color: rgba(161, 202, 214, 0.9);
+    font-weight: 200;
+}
 
 
 /*Responsivo*/
