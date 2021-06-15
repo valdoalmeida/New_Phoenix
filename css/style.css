@@ -64,7 +64,7 @@ ul li a{
 ul li a:hover{
 
     color: white;
-    background-color: brown;
+    background-color: rgb(204, 80, 80);
     padding: 8px;
     border-radius: 10px;
     transition: 1s ease;
