@@ -274,6 +274,7 @@ ul li a:hover{
     background-color: rgb(158, 53, 53);
     cursor: pointer;
     box-shadow: 5px 5px 10px black;
+    transition: 0.5s;
 }
 
 
