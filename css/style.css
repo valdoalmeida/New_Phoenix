@@ -358,7 +358,7 @@ header{
     height: 121px;
     opacity: 1;
     transition: 2s;
-    cursor: pointer;
+    cursor: cell;
 }
 
 
