@@ -86,7 +86,40 @@ header{
 }
 
 
-.container-text{
+.container-text1{
+    width: 32.33333%;    
+    display: inline-block;
+    position: relative;
+    top: -65px;
+    padding: 15px;
+    border: 1px solid rgb(202, 199, 199); 
+    margin: 2px;    
+    background-color: rgba(161, 202, 214, 0.9);
+    box-shadow: 4px 2px 2px black;
+    letter-spacing: 2px;
+    border-radius: 10px;   
+    color: black;
+    animation-name: animacao_text1;
+    animation-duration: 2s;
+     animation-iteration-count: 1;
+}
+
+@keyframes animacao_text1{
+    from{
+
+        left: -150px;
+    }
+    to{
+
+        left: 0;
+    }
+
+}
+
+
+
+
+.container-text2{
     width: 32.33333%;    
     display: inline-block;
     position: relative;
@@ -99,17 +132,77 @@ header{
     letter-spacing: 2px;
     border-radius: 10px;   
     color: black; 
+    animation-name: animacao_text2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
 
 
-.container-text:hover{
+
+
+@keyframes animacao_text2{
+
+    from{
+
+        top: -150px;
+    }
+    to{
+
+        bottom: 0;
+    }
+
+}
+.container-text3{
+    width: 32.33333%;    
+    display: inline-block;
+    position: relative;
+    top: -65px;
+    padding: 15px;
+    border: 1px solid rgb(202, 199, 199); 
+    margin: 2px;    
+    background-color: rgba(161, 202, 214, 0.9);
+    box-shadow: 4px 2px 2px black;
+    letter-spacing: 2px;
+    border-radius: 10px;   
+    color: black; 
+    animation-name: animacao_text3;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes animacao_text3{
+
+    from{
+
+        right: -150px;
+    }
+    to{
+
+        right: 0;
+    }
+
+}
+
+.container-text1:hover{
     background-color: rgb(204, 80, 80);
     color: white;
     transition: 0.5s ease-in-out;
 }
 
+.container-text2:hover{
+    background-color: rgb(204, 80, 80);
+    color: white;
+    transition: 0.5s ease-in-out;
+}
 
-.container-text > h2{
+.container-text3:hover{
+    background-color: rgb(204, 80, 80);
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.container-text1> h2{
     font-size: 11px;
     padding-bottom: 4px;
     font-family: 'Raleway', sans-serif;
@@ -117,14 +210,40 @@ header{
     font-weight: 900;    
 }
 
+.container-text2> h2{
+    font-size: 11px;
+    padding-bottom: 4px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 900;    
+}
+.container-text3> h2{
+    font-size: 11px;
+    padding-bottom: 4px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 900;    
+}
 
-.container-text > p{
+.container-text1 > p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    text-align: justify; 
+    font-weight: 500; 
+}
+.container-text2 > p{
     font-family: 'Raleway', sans-serif;
     font-size: 12px;
     text-align: justify; 
     font-weight: 500; 
 }
 
+.container-text3 > p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    text-align: justify; 
+    font-weight: 500; 
+}
 
 .text-main{
     width: 100%;
