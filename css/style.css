@@ -107,7 +107,7 @@ header{
 @keyframes animacao_text1{
     from{
 
-        left: -150px;
+        left: -350px;
     }
     to{
 
@@ -144,7 +144,7 @@ header{
 
     from{
 
-        top: -150px;
+        top: -250px;
     }
     to{
 
@@ -175,7 +175,7 @@ header{
 
     from{
 
-        right: -150px;
+        right: -350px;
     }
     to{
 
