@@ -81,6 +81,23 @@ header{
 }
 
 
+.filho-video{
+
+    position: absolute;
+    left: 50%;
+    top: 20%;    
+    
+
+}
+
+.filho-video > iframe{
+
+    opacity: 0.8;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 2px rgba(161, 202, 214, 0.9);
+}
+
 .container-text{
 
     width: 32.33333%;    
@@ -247,6 +264,7 @@ header{
     width: 210px;
     height: 121px;
     
+    
 }
 
 
@@ -292,10 +310,13 @@ header{
 
 footer{
 
+    display: flex;
+    align-items: center;
     background-color: rgb(56, 61, 59);
     width: 100%;
-    height: 250px;
+    height: 260px;
     border-top: 8px solid rgb(158, 53, 53);
+
 }
 
 .container-rodape{
@@ -305,22 +326,39 @@ footer{
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.address{
+
+    margin-top: 5%;
 }
 
 
 .address > p{
 
-    font-size: 15px;
+    font-size: 12px;    
+    
 }
+
+.onde{
+
+    margin-top: 10%;
+}
+
+
 iframe{
 
     margin-top: 8px;
     border: 2px solid white;
 }
+.links-uteis{
 
+    margin-top: 5%;
+}
 
 .links-uteis > ul li a{
 
