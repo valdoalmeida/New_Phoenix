@@ -188,18 +188,21 @@ header{
     background-color: rgb(204, 80, 80);
     color: white;
     transition: 0.5s ease-in-out;
+    cursor: cell;
 }
 
 .container-text2:hover{
     background-color: rgb(204, 80, 80);
     color: white;
     transition: 0.5s ease-in-out;
+    cursor: cell;
 }
 
 .container-text3:hover{
     background-color: rgb(204, 80, 80);
     color: white;
     transition: 0.5s ease-in-out;
+    cursor: cell;
 }
 
 .container-text1> h2{
