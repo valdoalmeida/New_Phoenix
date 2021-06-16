@@ -102,6 +102,8 @@ header{
     animation-name: animacao_text1;
     animation-duration: 2s;
      animation-iteration-count: 1;
+     animation-fill-mode: forwards;
+     
 }
 
 @keyframes animacao_text1{
@@ -112,6 +114,8 @@ header{
     to{
 
         left: 0;
+        background-color: rgb(204, 80, 80);
+        color: white;
     }
 
 }
@@ -135,6 +139,9 @@ header{
     animation-name: animacao_text2;
     animation-duration: 2s;
     animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+    
 }
 
 
@@ -149,6 +156,8 @@ header{
     to{
 
         bottom: 0;
+        background-color: rgb(204, 80, 80);
+        color: white;
     }
 
 }
@@ -168,6 +177,8 @@ header{
     animation-name: animacao_text3;
     animation-duration: 2s;
     animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
 }
 
 
@@ -180,6 +191,8 @@ header{
     to{
 
         right: 0;
+        background-color: rgb(204, 80, 80);
+        color: white;
     }
 
 }
