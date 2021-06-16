@@ -17,7 +17,7 @@
 
 header{
     width: 100%;
-    background-color: rgba(161, 202, 214, 0.9);
+    background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 4px 8px 9px gray;
     position: fixed;
     z-index: 1;
