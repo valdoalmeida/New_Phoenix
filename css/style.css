@@ -289,8 +289,19 @@ footer{
 
 .onde{
     margin-top: 10%;
+    
 }
 
+.onde > a{
+
+    color: white;
+}
+
+
+.onde > a:hover{
+
+    color: rgba(161, 202, 214, 0.9);
+}
 
 iframe{
     margin-top: 8px;
@@ -324,17 +335,55 @@ iframe{
 }
 
 
+
+
+
 /*Responsivo*/
 
-@media screen and (max-width: 1680px){
-
- 
-    
-}
 
 @media screen and (max-width: 1440px){
 
-   
+
+    .newsletter{
+
+        width: 60%;
+        
+        left: 30%;
+    }
+
+    .filho-video{
+
+        top: 75%;
+        left: 5%;
+    }   
+
+}
+
+
+
+@media screen and (max-width: 1366px){
+
+    .newsletter{
+
+        width: 60%;
+        
+        left: 30%;
+    }
+
+    .filho-video{
+
+        top: 90%;
+        left: 5%;
+    }    
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px){  
 
 
     .logo{
@@ -343,10 +392,100 @@ iframe{
         width: 10%;
     }
 
+    .newsletter{
 
+        width: 50%;        
+        left: 40%;
+    }
+
+    .filho-video{
+
+        top: 60%;
+        left: 3%;
+        width: 18%;
+        height: 38%;
+    }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 960px){
 
+    .filho-video{
+
+        top: 110%;
+        left: 3%;
+        width: 18%;
+        height: 38%;
+    } 
+    
+    .menu > ul li a{
+
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 520px){
+
+
+    .filho-video{
+
+        display: none;
+    }
+
+    .newsletter{
+
+        width: 95%;        
+        left: 2%;
+    }
+
+  .container-text{
+
+    display: block;
+    width: 100%;
+    border: none;
+    top: 5px;
+    
+  }
+
+  .newsletter{
+
+    width: 95%;        
+    left: 2%;
+    top: 10px;
+
+  }
+  
+.container-rodape{
+
+    display: block;
+    text-align: center;
     
 }
+
+  .map > iframe{
+
+
+    display: none;
+    
+  }
+
+  footer{
+
+    height: 490px;
+  }
+
+  .links-uteis > ul li{
+
+    border: none;
+  }
+
+  .text-main > a{
+
+    text-decoration: none;
+  }
+
+  
+
+
+}
+
+    
