@@ -44,11 +44,11 @@ header{
 
 .menu > ul li a{
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;    
+    font-family: 'Raleway', sans-serif;   
     padding: 8px;
-    color: rgb(8, 8, 8);
-    font-size: 9px;
-    font-weight: 900;    
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    font-weight: 600;    
 }
 
 
@@ -112,16 +112,17 @@ header{
 .container-text > h2{
     font-size: 11px;
     padding-bottom: 4px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
     font-weight: 900;    
 }
 
 
 .container-text > p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 12px;
-    text-align: center;  
+    text-align: justify; 
+    font-weight: 500; 
 }
 
 
@@ -143,7 +144,7 @@ header{
 .field-newsletter{
     display: flex;
     flex-wrap: wrap;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     border-radius: 10px;
     font-size: 16px;
     background-color: rgba(161, 202, 214, 0.9);
@@ -178,7 +179,7 @@ header{
 .field-newsletter > label{
     width: 100%;
     padding: 7px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 12px;    
     text-align: left;
     margin-left: 10px;    
@@ -219,7 +220,7 @@ header{
 
 .parceiros{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -242,7 +243,7 @@ header{
 .cadastrar{
     background-color: rgb(204, 80, 80);
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
 }
 
@@ -272,7 +273,7 @@ footer{
     display: flex;
     justify-content: space-around;   
     color: white;
-    font-family: Arial, Helvetica, sans-serif;    
+    font-family: 'Raleway', sans-serif;    
 }
 
 
@@ -305,7 +306,7 @@ iframe{
 .links-uteis > ul li a{
     text-decoration: none;  
     color: white;  
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 12px;
 }
 
