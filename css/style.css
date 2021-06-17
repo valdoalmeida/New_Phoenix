@@ -51,19 +51,21 @@ header{
 
 .menu > ul li a{
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;   
-    padding: 8px;
+    font-family: 'Open Sans', sans-serif; 
+    padding: 11px;
     color: rgb(0, 0, 0);
-    font-size: 10px;
+    font-size: 9px;
     font-weight: 600;  
-    margin-right: 10px;  
+    margin-right: 5px;  
+    
+    letter-spacing: 2px;
 }
 
 
 .menu > ul li a:hover{
     color: white;
     background-color: rgb(204, 80, 80);
-    padding: 8px;
+    padding: 11px;
     border-radius: 10px;
     transition: 1s ease;
     box-shadow: 1px 1px 1px black;    
@@ -95,10 +97,10 @@ header{
 
 
 .container-text1{
-    width: 32.33333%;    
+    width: 30.33333%;    
     display: inline-block;
     position: relative;
-    top: -65px;
+    top: -85px;
     padding: 15px;
     border: 1px solid rgb(202, 199, 199); 
     margin: 2px;    
@@ -108,9 +110,10 @@ header{
     border-radius: 10px;   
     color: black;
     animation-name: animacao_text1;
-    animation-duration: 2s;
-     animation-iteration-count: 1;
-     animation-fill-mode: forwards;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
      
 }
 
@@ -132,10 +135,10 @@ header{
 
 
 .container-text2{
-    width: 32.33333%;    
+    width: 35.33333%;    
     display: inline-block;
     position: relative;
-    top: -65px;
+    top: -95px;
     padding: 15px;
     border: 1px solid rgb(202, 199, 199); 
     margin: 2px;    
@@ -145,9 +148,10 @@ header{
     border-radius: 10px;   
     color: black; 
     animation-name: animacao_text2;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    
     
     
 }
@@ -170,10 +174,10 @@ header{
 
 }
 .container-text3{
-    width: 32.33333%;    
+    width: 30.33333%;    
     display: inline-block;
     position: relative;
-    top: -65px;
+    top: -85px;
     padding: 15px;
     border: 1px solid rgb(202, 199, 199); 
     margin: 2px;    
@@ -183,9 +187,10 @@ header{
     border-radius: 10px;   
     color: black; 
     animation-name: animacao_text3;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    
     
 }
 
@@ -227,47 +232,51 @@ header{
 }
 
 .container-text1> h2{
-    font-size: 11px;
+    font-size: 15px;
     padding-bottom: 4px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
-    font-weight: 900;    
+        
 }
 
 .container-text2> h2{
-    font-size: 11px;
+    font-size: 15px;
     padding-bottom: 4px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
-    font-weight: 900;    
+        
 }
 .container-text3> h2{
-    font-size: 11px;
+    font-size: 15px;
     padding-bottom: 4px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
-    font-weight: 900;    
+        
 }
 
 .container-text1 > p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    font-size: 11px;
     text-align: justify; 
-    font-weight: 500; 
+    font-weight: 200;
+    letter-spacing: 2px;
+    
 }
 .container-text2 > p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    font-size: 11px;
     text-align: justify; 
-    font-weight: 500; 
+    font-weight: 200;
+    letter-spacing: 2px;
+    
 }
 
 .container-text3 > p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    font-size: 11px;
     text-align: justify; 
-    font-weight: 500; 
-    font-weight: 300;
+    font-weight: 200;
+    letter-spacing: 2px;
 }
 
 .text-main{
@@ -291,7 +300,7 @@ header{
 .field-newsletter{
     display: flex;
     flex-wrap: wrap;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     border-radius: 10px;
     font-size: 16px;
     background-color: rgba(161, 202, 214, 0.9);
@@ -326,7 +335,7 @@ header{
 .field-newsletter > label{
     width: 100%;
     padding: 7px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 12px;    
     text-align: left;
     margin-left: 10px;    
@@ -367,7 +376,7 @@ header{
 
 .parceiros{
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
 }
 
@@ -396,7 +405,7 @@ header{
 .cadastrar{
     background-color: rgb(204, 80, 80);
     color: white;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
 }
 
@@ -470,7 +479,7 @@ iframe{
 .links-uteis > ul li a{
     text-decoration: none;  
     color: white;  
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
 }
 
