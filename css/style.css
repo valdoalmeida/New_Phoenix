@@ -15,14 +15,15 @@
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;    
+    justify-content: space-around;
+    align-items: flex-end;  
+    
 }
 
 
 header{
     width: 100%;
-    height: 115px;
+    height: 117px;
     background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 4px 8px 9px gray;
     position: fixed;
@@ -32,36 +33,41 @@ header{
 
 .logo > img{
     width: 100%;
-    margin-top: 5px;
+    margin-bottom: 15px;
 }
 
 
 .menu > ul{
-    display: flex;
-    padding-bottom: 15px;    
+    display: flex;    
+    padding-bottom: 15px;   
+    
+    
 }
 
 
 .menu > ul li{
-    margin-right: 8px;
-    list-style: none;
-    letter-spacing: 2px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;       
+    width: 60px;
+    height: 60px;
+    padding: 35px;
+    margin-top: 40px;
+    margin-right: 20px;
+    
+    
 }
 
 
 .menu > ul li a{
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif; 
-    padding: 11px;
-    color: rgb(0, 0, 0);
-    font-size: 9px;
-    font-weight: 600;  
-    margin-right: 5px;  
+    text-decoration: none;    
     
-    letter-spacing: 2px;
+    
+    
 }
 
-
+/*
 .menu > ul li a:hover{
     color: white;
     background-color: rgb(204, 80, 80);
@@ -69,6 +75,15 @@ header{
     border-radius: 10px;
     transition: 1s ease;
     box-shadow: 1px 1px 1px black;    
+}
+*/
+
+.menu ul li a > img:hover{
+
+    width: 50px;
+    box-shadow: 2px 2px 2px black;
+    
+    
 }
 
 
