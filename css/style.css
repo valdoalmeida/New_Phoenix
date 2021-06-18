@@ -12,11 +12,13 @@
 
 .container{
     width: 100%;
-    max-width: 1000px;
+    max-width: 1100px;
+    height: 117px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    align-items: flex-end;  
+    align-items: flex-end; 
+    
     
 }
 
@@ -28,12 +30,13 @@ header{
     box-shadow: 4px 8px 9px gray;
     position: fixed;
     z-index: 1;
+    
 }
 
 
 .logo > img{
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 2px;
 }
 
 
@@ -53,15 +56,18 @@ header{
     width: 60px;
     height: 60px;
     padding: 35px;
-    margin-top: 40px;
-    margin-right: 20px;
+    margin-top: 50px;
+    margin-right: 5px;
+    
     
     
 }
 
 
-.menu > ul li a{
+.menu > ul li a img{
     text-decoration: none;    
+   
+    
     
     
     
@@ -80,8 +86,8 @@ header{
 
 .menu ul li a > img:hover{
 
-    width: 50px;
-    box-shadow: 2px 2px 2px black;
+    width: 60px;
+    transition: 1s;
     
     
 }
@@ -92,23 +98,6 @@ header{
 }
 
 
-.filho-video{
-    position: absolute;    
-    left: 2.5%;
-    top: 70%; 
-    height: 30%;
-    width: 15%;
-}
-
-
-.filho-video > iframe{
-    width: 190%;
-    height: 90%;
-    opacity: 0.8;
-    border-radius: 10px;
-    border: none;
-    box-shadow: 3px 3px 2px rgba(161, 202, 214, 0.9);    
-}
 
 
 .container-text1{
@@ -438,14 +427,14 @@ footer{
     align-items: center;
     background-color: rgb(56, 61, 59);
     width: 100%;
-    height: 260px;
+    height: 240px;
     border-top: 8px solid rgb(158, 53, 53);
 }
 
 
 .container-rodape{
     width: 100%;
-    max-width: 1000px;
+    max-width: 1000px;    
     margin: 0 auto;
     display: flex;
     justify-content: space-around;   
@@ -455,17 +444,19 @@ footer{
 
 
 .address{
-    margin-top: 5%;
+    margin-top: 2%;
+    
 }
 
 
 .address > p{
-    font-size: 13px;      
+    font-size: 13px;  
+    margin-top: 2%;    
 }
 
 
 .onde{
-    margin-top: 10%;
+    margin-top: 8%;
     
 }
 
@@ -482,12 +473,12 @@ footer{
 
 iframe{
     margin-top: 8px;
-    border: 2px solid white;
+    
 }
 
 
 .links-uteis{
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 
