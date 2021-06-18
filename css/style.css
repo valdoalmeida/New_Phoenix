@@ -539,5 +539,117 @@ iframe{
 /*Responsivo*/
 
 
+@media screen and (max-width: 1680px) {
 
+    .menu > ul {
+
+        margin-right: 75px;
+    }
+
+    .menu > ul li{
+
+        
+        padding: 15px;
+        margin-right: 30px;      
+        
+    }
+    
+}
+
+@media screen and (max-width: 1440px) {
+
+    .menu > ul {
+
+        margin-right: 155px;
+    }
+
+    .logo{
+
+        width: 12%;
+    }
+
+    .container{
+
+        height: 100px;
+        
+    }
+
+    header{
+
+        height: 100px;
+    }
+
+    .container-text1{
+
+        top: -40px;
+    }
+
+    .container-text2{
+
+        top: -40px;
+    }
+
+    .container-text3{
+
+        top: -40px;
+    }
+
+    .newsletter{
+
+        top: -30px;
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .menu > ul {
+
+        margin-right: 200px;
+    }
+
+    .logo{
+
+        width: 10%;
+    }
+
+    .container{
+
+        height: 80px;
+        
+    }
+
+    header{
+
+        height: 80px;
+    }
+
+    .container-text1{
+
+        top: -5px;
+    }
+
+    .container-text2{
+
+        top: 5px;
+    }
+
+    .container-text3{
+
+        top: -5px;
+    }
+
+    .newsletter{
+
+        top: 5px;
+    }
+    
+    .main2{
+
+        position: relative;
+        top: 15px;
+    }
+}
     
