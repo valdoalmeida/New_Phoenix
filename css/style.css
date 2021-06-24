@@ -653,3 +653,63 @@ iframe{
     }
 }
     
+
+@media screen and (max-width: 900px) {
+
+    .menu > ul {
+
+        margin-right: 160px;
+    }
+
+
+    .menu ul li a > img{
+
+        width: 25px;
+    }
+
+    .logo{
+
+        width: 8%;
+    }
+
+    .container{
+
+        height: 60px;
+        
+    }
+
+    header{
+
+        height: 60px;
+    }
+
+    .container-text1{
+
+        top: 55px;
+    }
+
+    .container-text2{
+
+        top: 85px;
+    }
+
+    .container-text3{
+
+        top: 55px;
+    }
+
+    .newsletter{
+
+        top: 85px;
+    }
+    
+    .main2{
+
+        position: relative;
+        top: 95px;
+    }
+
+
+   
+}
+    
